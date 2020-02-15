@@ -141,7 +141,7 @@ function _createDockComp() {
 
 VAR_DCY_INP="docker-compose.yaml"
 
-VAR_PROJNAME="apaphpexample"
+VAR_PROJNAME="apaphp71mdb101example"
 
 [ ! -f "$VAR_DCY_INP" -a -f "docker-compose-${LVAR_DEBIAN_DIST}-SAMPLE.yaml" ] && {
 	_createDockComp || exit 1
